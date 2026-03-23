@@ -1,0 +1,18 @@
+---
+import "../styles/global.css";
+const { title = "QR Code Component", children } = Astro.props;
+---
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" href="/favicon-32x32.png" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-slate300 min-h-screen flex items-center justify-center font-outfit">
+    <slot />   <!-- usa <slot /> en vez de {children} -->
+  </body>
+</html>
