@@ -1,46 +1,89 @@
-# Astro Starter Kit: Basics
+# 🧩 Proyecto: Componente QR Code
 
-```sh
-npm create astro@latest -- --template basics
+Este proyecto consiste en el desarrollo de un componente de Código QR utilizando Astro y Tailwind CSS.  
+El objetivo es aplicar los conocimientos sobre componentes, maquetación, estilos responsivos y utilidades CSS para construir un diseño limpio, moderno y adaptable a diferentes dispositivos.
+
+---
+
+## 📖 Descripción general
+
+### 🧩 Vista previa del proyecto
+*Capturas de Pantalla*
+![alt text](brave_screenshot_localhost.png)
+![alt text](<brave_screenshot_localhost (1).png>)
+
+---
+
+### 🔗 Enlaces del proyecto
+
+- **Repositorio en GitHub:** https://github.com/MartinITAAgs/QR-Code-Component-
+- **Sitio desplegado (opcional):** Vercel: https://major-main-5nghscak0-mmichifus7-8198s-projects.vercel.app/
+
+---
+
+## 🧠 Proceso de desarrollo
+
+### 🛠️ Tecnologías utilizadas
+Lista las herramientas y tecnologías que utilizaste en el proyecto. Por ejemplo:
+
+- [Astro](https://astro.build)
+- [Tailwind CSS](https://tailwindcss.com/)
+- HTML5 semántico
+- Diseño responsivo (Mobile-first)
+- Componentes reutilizables
+
+---
+
+### 💡 Lo que aprendí
+En esta sección describe brevemente **qué aprendiste o reforzaste** al desarrollar este proyecto.  
+Puedes incluir fragmentos de código o mencionar conceptos nuevos que aplicaste.
+
+
+  En este trabajo se ha aprendido de la nueva forma para otorgar el diseño a través de Tailwind, pareciendo rebuscados con líneas tales como:
+  <main class="bg-white rounded-2xl shadow-lg p-4 w-[320px] md:w-[375px] lg:w-[350px] text-center">
+  donde parecen tener poco orden. Se considera que tras practicar más, sería algo bueno para optimizar líneas y procesos.
+
 ```
+  
+---
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+### 🚀 Áreas de mejora
 
-## 🚀 Project Structure
+Menciona aquí los aspectos que podrías mejorar o seguir practicando en futuros proyectos.
 
-Inside of your Astro project, you'll see the following folders and files:
+ 
+- Explorar el uso de variables de Tailwind personalizadas. Se espera que la experiencia facilite este punto. 
+- Optimizar la estructura del proyecto y el uso de componentes. Aún no se ha trabajado demasiado pero los resultados ahn sido satisfactorios para este proyecto sencillo. 
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+---
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+### 📚 Recursos útiles
 
-## 🧞 Commands
+Incluye los enlaces, documentación o tutoriales que te ayudaron a completar este proyecto.
 
-All commands are run from the root of the project, from a terminal:
+- Documentación de :
+  https://tailwindcss.com/docs/installation/using-vite
+  https://docs.astro.build/es/getting-started/
+ 
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+---
 
-## 👀 Want to learn more?
+### 👩‍💻 Autor
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- **Nombre completo: Martín de Jesús Ramírez Rodríguez** 
+- **Carrera: ingeniería en Tecnologías de la Información y Comunicaciones**  
+- **Grupo: 11:00 am**  
+- **Correo institucional: 23151193@aguascalientes.tecnm.mx**  
+
+---
+
+### ✨ Reflexión final
+
+Comparte brevemente tu experiencia durante el desarrollo del proyecto.  
+Puedes responder a preguntas como:
+
+- ¿Qué fue lo más fácil o lo más difícil de realizar?
+    Idear la responsividad y diseño ahn sido sencillos, lo dificil ha sido indagar en el nuevo formato de Tailwind para implementar el diseño.
+- ¿Qué parte disfrutaste más del desarrollo?  
+    Aprender una nueva forma de trabajar el frontend ha sido nutritivo.
+
