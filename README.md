@@ -9,8 +9,13 @@ El objetivo es aplicar los conocimientos sobre componentes, maquetación, estilo
 
 ### 🧩 Vista previa del proyecto
 *Capturas de Pantalla*
-![alt text](brave_screenshot_localhost.png)
-![alt text](<brave_screenshot_localhost (1).png>)
+## Vista Previa
+
+| Desktop Version | Mobile Version |
+| :---: | :---: |
+| ![Desktop](./screenshots/QR.Desktop.png) | <img src="./screenshots/QR.Mobile.png" width="200"> |
+
+[🌐 Ver Demo en Vivo](https://loop-studios-page-phi.vercel.app/)
 
 ---
 
